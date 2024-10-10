@@ -14,7 +14,7 @@ interface CardInfoProps {
 
 const CardInfo: React.FC<CardInfoProps> = ({ title, description, image }) => {
   return (
-    <Card className="flex items-center justify-between p-6 bg-gray-50 rounded-xl border border-gray-800 shadow-sm">
+    <Card className="flex items-center justify-between p-6 bg-gray-50 rounded-xl border border-gray-800 shadow-lg hover:shadow-2xl">
       <CardContent className="flex flex-col">
         <CardTitle className="text-lg font-bold text-green-500">
           {title}
