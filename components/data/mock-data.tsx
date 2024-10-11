@@ -53,3 +53,33 @@ export const stepsData = [
     content: "Aquí puedes agregar el contenido para el paso 6.",
   },
 ];
+
+export const clientsData = [
+  {
+    id: 1,
+    name: "Michael Simbal",
+    title: "Marketing Exec. at Denva Corp",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    status: "Open for side gigs",
+    joinedDate: "Apr 08, 2022",
+    imageUrl: "/assets/profile1.jpg",
+  },
+  {
+    id: 2,
+    name: "Sarah Conor",
+    title: "HR Manager at Cyberdyne",
+    description: "Doloremque labore ipsum sequi dolorem animi eligendi.",
+    status: "Available",
+    joinedDate: "Jun 22, 2021",
+    imageUrl: "/assets/profile2.jpg",
+  },
+  {
+    id: 3,
+    name: "John Doe",
+    title: "Software Engineer at Skynet",
+    description: "Architecto aliquid, tempora. Placeat rem aperiam ipsam.",
+    status: "Busy",
+    joinedDate: "Feb 14, 2020",
+    imageUrl: "/assets/profile3.jpg",
+  },
+];
