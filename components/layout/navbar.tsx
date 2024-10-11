@@ -13,22 +13,17 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-10 font-semibold text-sm">
           <li>
             <a href="#" className="hover:text-gray-700 focus:text-gray-700">
-              About us
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-700 focus:text-gray-700">
               Services
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-700 focus:text-gray-700">
-              Negocios
+              Bussines
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-700 focus:text-gray-700">
-              Más opciones
+              Business Products
             </a>
           </li>
         </ul>

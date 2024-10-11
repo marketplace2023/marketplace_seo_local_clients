@@ -14,16 +14,16 @@ interface CardInfoProps {
 
 const CardInfo: React.FC<CardInfoProps> = ({ title, description, image }) => {
   return (
-    <Card className="flex items-center justify-between p-6 bg-gray-50 rounded-xl border border-gray-800 shadow-lg hover:shadow-2xl">
+    <Card className="flex items-center justify-between p-4 bg-gray-50 rounded-lg border border-gray-800 shadow-md hover:shadow-lg">
       <CardContent className="flex flex-col">
-        <CardTitle className="text-lg font-bold text-green-500">
+        <CardTitle className="text-md font-semibold text-lime-600">
           {title}
         </CardTitle>
         <CardDescription className="text-gray-700">
           {description}
         </CardDescription>
       </CardContent>
-      <Image src={image} width={150} height={150} alt={`${title} logo`} />
+      <Image src={image} width={120} height={120} alt={`${title} logo`} />
     </Card>
   );
 };

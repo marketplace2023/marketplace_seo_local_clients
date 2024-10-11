@@ -1,22 +1,55 @@
 export const servicesData = [
   {
-    title: "Search engine optimization",
+    title: "GBP Overhaul & Management",
     description: "Learn more",
     image: "/assets/Illustrationlog.png",
   },
   {
-    title: "Pay-per-click advertising",
+    title: "Citations & Cross-Linking",
     description: "Learn more",
     image: "/assets/folder.png",
   },
   {
-    title: "Social Media Marketing",
+    title: "Google Rank Tracker",
     description: "Learn more",
     image: "/assets/illustration.png",
   },
   {
-    title: "Analitycs and Tracking",
+    title: "Monthly Progress Report",
     description: "Learn more",
     image: "/assets/email.png",
+  },
+];
+
+export const stepsData = [
+  {
+    step: 1,
+    title: "Research and Strategy Development",
+    content: "Aquí puedes agregar el contenido para el paso 1.",
+  },
+  {
+    step: 2,
+    title: "Concept and Design",
+    content: "Aquí puedes agregar el contenido para el paso 2.",
+  },
+  {
+    step: 3,
+    title: "Development and Testing",
+    content: "Aquí puedes agregar el contenido para el paso 3.",
+  },
+  {
+    step: 4,
+    title: "Launch and Execution",
+    content: "Aquí puedes agregar el contenido para el paso 4.",
+  },
+  {
+    step: 5,
+    title: "Performance and Optimization",
+    content: "Aquí puedes agregar el contenido para el paso 5.",
+  },
+  {
+    step: 6,
+    title: "Maintenance and Support",
+    content: "Aquí puedes agregar el contenido para el paso 6.",
   },
 ];
