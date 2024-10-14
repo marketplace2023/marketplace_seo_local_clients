@@ -3,7 +3,7 @@ import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import React from "react";
 
-const BussinesPage = () => {
+const ClientsPage = () => {
   return (
     <div>
       <Navbar />
@@ -13,4 +13,4 @@ const BussinesPage = () => {
   );
 };
 
-export default BussinesPage;
+export default ClientsPage;
