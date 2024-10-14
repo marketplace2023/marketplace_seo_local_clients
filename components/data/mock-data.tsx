@@ -83,3 +83,39 @@ export const clientsData = [
     imageUrl: "/assets/profile3.jpg",
   },
 ];
+
+export const propertiesData = [
+  {
+    id: 1,
+    name: "Beautiful House",
+    price: "$200,000",
+    bedrooms: 3,
+    bathrooms: 2,
+    size: "120",
+    imageUrl: "/assets/house1.jpg",
+    agentName: "Agent Name",
+    agentTitle: "Real Estate Agent",
+  },
+  {
+    id: 2,
+    name: "Modern Villa",
+    price: "$350,000",
+    bedrooms: 4,
+    bathrooms: 3,
+    size: "200",
+    imageUrl: "/assets/house2.jpg",
+    agentName: "Jane Doe",
+    agentTitle: "Senior Agent",
+  },
+  {
+    id: 3,
+    name: "Modern Villa",
+    price: "$350,000",
+    bedrooms: 4,
+    bathrooms: 3,
+    size: "200",
+    imageUrl: "/assets/house2.jpg",
+    agentName: "Jane Doe",
+    agentTitle: "Senior Agent",
+  },
+];
