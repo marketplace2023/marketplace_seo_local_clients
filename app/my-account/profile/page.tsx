@@ -1,3 +1,4 @@
+"use client";
 import Layout from "@/components/layout/layout";
 import Siderbar from "@/components/layout/siderbar";
 import {
@@ -47,11 +48,11 @@ const ProfilePage = () => {
                   name="first_name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Nombre del Negocio</FormLabel>
+                      <FormLabel>First Name</FormLabel>
                       <FormControl>
                         <Input
                           type="text"
-                          placeholder="Ingrese el nombre del negocio"
+                          placeholder="Enter your first name"
                           {...field}
                         />
                       </FormControl>
@@ -64,11 +65,11 @@ const ProfilePage = () => {
                   name="last_name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Direccion Fisica</FormLabel>
+                      <FormLabel>Last Name</FormLabel>
                       <FormControl>
                         <Input
                           type="text"
-                          placeholder="Ingrese una direccion fisica"
+                          placeholder="Enter your last name"
                           {...field}
                         />
                       </FormControl>
@@ -81,11 +82,28 @@ const ProfilePage = () => {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Correo Electronico</FormLabel>
+                      <FormLabel>Email</FormLabel>
                       <FormControl>
                         <Input
                           type="text"
-                          placeholder="Ingrese un correo valido"
+                          placeholder="Enter your email"
+                          {...field}
+                        />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <FormField
+                  control={form.control}
+                  name="phone"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Phone</FormLabel>
+                      <FormControl>
+                        <Input
+                          type="text"
+                          placeholder="Enter your phone"
                           {...field}
                         />
                       </FormControl>
@@ -96,7 +114,7 @@ const ProfilePage = () => {
               </div>
 
               <div className="flex justify-end">
-                <Button type="submit">Añadir Cliente</Button>
+                <Button type="submit">Update Profile</Button>
               </div>
             </form>
           </Form>

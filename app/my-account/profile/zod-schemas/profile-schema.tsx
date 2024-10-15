@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 export const profileFormSchema = z.object({
+  id: z.string().uuid(),
   first_name: z.string().min(1, "El nombre es obligatorio"),
   last_name: z.string().min(1, "El apellido es obligatorio"),
   email: z.string().min(1, "El correo es obligatorio"),
