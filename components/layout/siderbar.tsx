@@ -9,20 +9,19 @@ const Siderbar = ({ children }) => {
             <li>
               <Link
                 href="/my-account/profile"
-                className="block py-2 px-4 text-sm hover:bg-gray-200"
+                className="block py-2 px-4 text-sm font-semibold hover:bg-gray-200"
               >
                 Profile
               </Link>
             </li>
             <li>
               <Link
-                href="/my-account/settings"
-                className="block py-2 px-4 text-sm hover:bg-gray-200"
+                href="/my-account/bussiness_profile"
+                className="block py-2 px-4 text-sm font-semibold hover:bg-gray-200"
               >
-                Settings
+                Bussines Profile
               </Link>
             </li>
-            {/* Añade más enlaces según sea necesario */}
           </ul>
         </nav>
       </aside>
