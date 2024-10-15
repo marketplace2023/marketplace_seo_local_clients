@@ -82,7 +82,7 @@ const PropertyCard = ({ property }: PropertyCardProps) => {
 
 const PropertiesGrid = () => {
   return (
-    <div className="grid grid-cols-2 gap-6">
+    <div className="grid grid-cols-3 gap-6">
       {propertiesData.map((property: Property) => (
         <PropertyCard key={property.id} property={property} />
       ))}

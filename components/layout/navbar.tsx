@@ -3,6 +3,14 @@ import React from "react";
 import logo from "@/public/assets/logo.jpg";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu";
 
 const Navbar = () => {
   return (
@@ -34,7 +42,18 @@ const Navbar = () => {
         </ul>
         <div className=" mr-6">
           <Link href="/login">
-            <Button>Unirse</Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger>
+                <Button>Unirse</Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <Link href="/profile">
+                  <DropdownMenuItem>Profile</DropdownMenuItem>
+                </Link>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </Link>
         </div>
       </div>
