@@ -27,6 +27,7 @@ const dayScheduleSchema = z
 
 export const businessProfileFormSchema = z.object({
   id: z.string().uuid(),
+  clientId: z.string().uuid(),
   business_name: z.string().min(1, "Business name is required"),
   description: z.string().min(1, "Description is required"),
   short_description: z.string().min(1, "Short description is required"),
@@ -40,6 +41,8 @@ export const businessProfileFormSchema = z.object({
   phone: z.string().min(1, "Phone number is required"),
   email: z.string().min(1, "Email is required"),
   website: z.string().min(1, "Website is required"),
+  experience: z.string().min(1, "Experience is required"),
+  certifications: z.string().min(1, "Certifications is required"),
   schedule: z.array(dayScheduleSchema).min(1, {
     message: "There must be at least one day with opening and closing times",
   }),

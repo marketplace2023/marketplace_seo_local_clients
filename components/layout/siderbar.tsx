@@ -22,6 +22,22 @@ const Siderbar = ({ children }) => {
                 Bussines Profile
               </Link>
             </li>
+            <li>
+              <Link
+                href="/my-account/services"
+                className="block py-2 px-4 text-sm font-semibold hover:bg-gray-200"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/my-account/media"
+                className="block py-2 px-4 text-sm font-semibold hover:bg-gray-200"
+              >
+                Media
+              </Link>
+            </li>
           </ul>
         </nav>
       </aside>
