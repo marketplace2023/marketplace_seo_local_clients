@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link href="/login">
             <DropdownMenu>
               <DropdownMenuTrigger>
-                <Button>Unirse</Button>
+                <Button>Login</Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>

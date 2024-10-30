@@ -6,6 +6,7 @@ import { useState } from "react";
 // Importar íconos de react-icons
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const RegisterPage = () => {
   const [companyName, setCompanyName] = useState("");
@@ -110,9 +111,9 @@ const RegisterPage = () => {
 
         <p className="mt-4 text-center">
           Already have an account?{" "}
-          <a href="#" className="text-lime-600">
-            Sign in
-          </a>
+          <Link href="/login">
+            <p className="text-lime-600">Sign in</p>
+          </Link>
         </p>
       </div>
     </div>
